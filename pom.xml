@@ -12,7 +12,7 @@
     <artifactId>web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test</name>
-    <description>????</description>
+    <description>123</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -22,8 +22,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -32,12 +30,7 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
+
     </build>
 
 </project>
