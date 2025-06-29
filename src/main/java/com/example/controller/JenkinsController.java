@@ -14,6 +14,10 @@ public class JenkinsController {
 
 
 
+    private final static String STR  = "啊哈哈哈哈哈哈哈哈哈哈哈哈哈";
+
+
+
 
     @GetMapping("select")
     public Map<String, Object> select(){
@@ -23,6 +27,7 @@ public class JenkinsController {
         map.put("list", Arrays.asList("haha","aaa","eeee","abcd"));
         map.put("string","jenkins 流水线构建");
         map.put("integer",123);
+
 
         return map;
 
