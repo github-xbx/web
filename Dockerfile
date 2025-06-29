@@ -1,5 +1,5 @@
 # 使用本地镜像
-FROM openjdk:8-jre-slim
+FROM openanolis/anolisos:8.6
 # 作者
 LABEL authors="xing"
 # 设置工作目录为 (自定义)
